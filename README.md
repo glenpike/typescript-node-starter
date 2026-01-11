@@ -20,10 +20,18 @@ Start coding.
 
 Add / edit *_test.ts files in the `tests` directory and run `npm test` for a single pass.  Use `npm test -- --watchAll` to run jest in 'watch' mode and it will re-run tests when files change.
 
-## TypeScript syntac checking
+## TypeScript syntax checking
 
 Edit files and run `npm run check` to get the TypeScript compiler to check files without building/running.
 
 ## Starting
 
-There is a very simple entry point in `src/index.ts` that demonstrates importing and running code.  This is linked to the `npm start` command defined in package.json.  It uses `ts-node` rather than a raw `node` command because `ts-node` uses the tsconfig.json file, so the compiler options like module importing and omitting extensions works, etc.
+There is a very simple entry point in `src/index.ts` that demonstrates importing and running code.  
+
+This is linked to the `npm start` command defined in package.json.  
+
+It uses `ts-node` rather than a raw `node` command because `ts-node` uses the tsconfig.json file, so the compiler options like module importing and omitting extensions works, etc.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
